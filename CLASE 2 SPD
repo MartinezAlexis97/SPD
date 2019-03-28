@@ -1,0 +1,27 @@
+
+LABORATORIO (28/03/19)
+
+		SIGNO MAGNITUD. (siempre especificar con cuantos bits se trabaja // 8 o 16 bits) con 8 bits se puede
+		
+			representa desde -127 a 127!
+			
+		
+		-10d = 10001010		el primer 1 (bit) indica que el numero es negativo.
+		
+		9d = 00001001		el primer 0(bit) indica que el numero es positivo.
+		
+		
+		COMPLEMENTO A 1: 
+		
+			10 = 00001010	cambiar bits a su contrario(partir del numero positivo).
+		   -10 = 11110101	
+		   
+		   
+		COMPLEMENTO A 2:	representa desde -128 a 127!
+		
+			10 =| 00001010
+			    | 11110101	complemento a 1.
+				|+00000001	le sumo 1, por el corrimiento del complemento a 1.
+			-10	|=11110110 	<-- resultado final.
+		    
+		
