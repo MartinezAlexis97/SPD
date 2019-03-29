@@ -24,4 +24,43 @@ LABORATORIO (28/03/19)
 				|+00000001	le sumo 1, por el corrimiento del complemento a 1.
 			-10	|=11110110 	<-- resultado final.
 		    
+			
+		NUMEROS DECIMALES (punto flotante)
+				simple precision (32 bits)
+				
+			estructura: (_)  (_ _ _ _ _ _ _ _)  (_ _ _ -->(...23))    32 bits en total.
+			            bs      8bits			   mantisa
+					      exponente desplazado
+			
+			bs: define el signo del numero. 
+			
+		EJEMPLO:
+			
+				1258 = 10011101010
+				
+				la mantisa es 1,0011101010
+				el exponente es: exp+127 (pasado a binario)
+				exp=10+127=137
+				
+				resultado= 0 10001001 00111010100000000000000
+				
+				
+//-----------------------------------------------------------------//
+//-----------------------------------------------------------------//
+
+		PARIDAD (tecnica para saber si la comunicacion es correcta):
 		
+	  par: se especifica tipo de paridad y se agrega un bit dependiendo del msj para que los 1 sean pares.
+	  
+	  impar: se especifica tipo de paridad y se agrega un bit dependiendo del msj para que los 1 sean impares.
+	  
+		EJEMPLO:
+		
+		par -->  transmite (0)0101  recibe 0101 (V)
+													V y X significa que el msj recibido no es el original(nada tiene que ver con la paridad).
+		par -->  transmite (1)0100  recibe 10101 (X)    
+	
+				
+				
+				
+				
