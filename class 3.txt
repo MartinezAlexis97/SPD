@@ -1,0 +1,26 @@
+SPD CLASS #3
+
+ELECTRONICA;
+
+
+Electricidad: electrones recorriendo un circuito a traves de un conductor.
+
+P(w)=V*I
+Tension= volt.
+intensidad/corriente= Ampere.
+resistencia ohm.
+
+I = V/R
+
+V = V2-V1
+
+Diodo ( --->|-- )  +ánodo+    -cátodo-  
+         +    -     larga       corta
+		 
+trabaja con 2Volts y 0.02 Amperes.	
+
+
+Resistor/resistencia ( www )	
+ 
+
+		 
